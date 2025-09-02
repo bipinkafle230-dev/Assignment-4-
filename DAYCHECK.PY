@@ -2,7 +2,7 @@ def week():
     week_here()
 
 def week_here():
-    # try:
+    # user input below
         number = int(input("Enter a number between 1 and 7: "))
         match number:
             case 1:
@@ -21,7 +21,4 @@ def week_here():
                 print("Saturday")
             case _:
                 print("Invalid input")
-    # except ValueError:
-    #     print("Please enter a valid integer.")
-
 week()
