@@ -1,6 +1,6 @@
 # defining function for guessing loop 
 
-def guess():
+def main():
     need_number = 30  # The number to guess
 
     while True:
@@ -21,4 +21,5 @@ def guess():
                 print("Wrong guess, try again.")
 
 # Start the game
-guess()
+
+main()
