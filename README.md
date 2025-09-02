@@ -11,7 +11,7 @@ Output: Day name (Monday to Sunday).
 If input is not in range, prints "Invalid input".
 
 
-#GUESS.PY
+# GUESS.PY
 
 Description:
 This program has a secret number (e.g., 7). The user keeps guessing until they either guess correctly or enter -1 to quit.
