@@ -1,4 +1,4 @@
-def week():  # defining the main function
+def main():  # defining the main function
     week_here() # calling user function
 
 def week_here():  # defining the user function
@@ -21,5 +21,6 @@ def week_here():  # defining the user function
                 print("Saturday")  # If number is 7 , print Saturday
             case _:
                 print("Invalid input")   # If number beyond this number , print Invalid input
-week()
+main()
+
 
