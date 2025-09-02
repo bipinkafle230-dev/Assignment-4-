@@ -1,5 +1,5 @@
 # Main function to start the program
-def added():
+def main():
     calculate_sum()
 
 # Function to calculate the sum of even numbers from 1 to n
@@ -19,5 +19,6 @@ def calculate_sum():
     print(f"Sum of even numbers from 1 to {n}: {SqSum}")
 
 # Calling the main function to run the program
-added()
+main()
+
   
